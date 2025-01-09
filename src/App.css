@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+    margin: 10px auto;
+    width: auto;
+  }
+  
+  .or {
+    text-align: center;
+    font-size: 20px;
+    background:
+      linear-gradient(#000 0 0) left,
+      linear-gradient(#000 0 0) right;
+    background-size: 47% 1px;
+    background-repeat: no-repeat;
+  }
+
+  @keyframes jiggle {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .animate-jiggle {
+    animation: jiggle 0.3s ease-in-out;
+  }
