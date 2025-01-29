@@ -13,9 +13,10 @@ import Login from "./component/Login";
 import WelcomeForm from "./component/Welcome";
 import { UserProvider, useUser } from "./component/UserProvider";
 import VerifyOtp from "./component/Verify";
-import AboutUs from "./component/AboutUs";
 import NavbarLayout from "./Layout/NavbarLayout";
 import ErrorPage from "./component/404page";
+import AboutUs from "./component/AboutUs/AboutUs";
+
 
 const ProtectedRoute = ({ element }) => {
   const location = useLocation();

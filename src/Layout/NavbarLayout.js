@@ -5,6 +5,7 @@ const NavbarLayout = () => {
   return (
     <div>
       <Navbar logo={"/svg/logo.svg"} ctaButton={"Talk to experts"} />
+
       <Outlet />
     </div>
   );
